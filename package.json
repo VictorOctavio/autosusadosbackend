@@ -21,7 +21,8 @@
   },
   "scripts": {
     "dev": "nodemon --exec babel-node src/index.js",
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "build": "node src/index.js"
   },
   "eslintConfig": {
 
