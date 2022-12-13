@@ -2,9 +2,6 @@
   "name": "usedmotor",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "14.x"
-  },
   "dependencies": {
     "@babel/runtime": "^7.18.9",
     "bcrypt": "^5.0.1",
@@ -23,9 +20,8 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node src/index.js",
-    "start": "node src/index.js",
-    "build": "node src/index.js"
+    "devvv": "nodemon --exec babel-node src/index.js",
+    "start": "node src/index.js"
   },
   "browserslist": {
     "production": [
