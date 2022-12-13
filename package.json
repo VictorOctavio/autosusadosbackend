@@ -20,9 +20,8 @@
     "uuid": "^8.3.2"
   },
   "scripts": {
-    "dev": "nodemon --exec babel-node server/index.js",
-    "start": "node build/index.js",
-    "build": "babel server -d build"
+    "dev": "nodemon --exec babel-node src/index.js",
+    "start": "node src/index.js"
   },
   "eslintConfig": {
 
