@@ -2,6 +2,9 @@
   "name": "usedmotor",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "14.x"
+  },
   "dependencies": {
     "@babel/runtime": "^7.18.9",
     "bcrypt": "^5.0.1",
@@ -23,9 +26,6 @@
     "dev": "nodemon --exec babel-node src/index.js",
     "start": "node src/index.js",
     "build": "node src/index.js"
-  },
-  "eslintConfig": {
-
   },
   "browserslist": {
     "production": [
