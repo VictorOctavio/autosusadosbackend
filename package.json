@@ -1,0 +1,49 @@
+{
+  "name": "usedmotor",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "bcrypt": "^5.0.1",
+    "bootstrap": "^5.1.3",
+    "cloudinary": "^1.28.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "fs": "0.0.1-security",
+    "fs-extra": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5",
+    "mongoose-paginate-v2": "^1.4.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node server/index.js",
+    "start": "node build/index.js",
+    "build": "babel server -d build"
+  },
+  "eslintConfig": {
+
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.7",
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.16.7"
+  }
+}
